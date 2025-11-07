@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed the Strays</title>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffaf0;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff914d;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background-color: #ffd8a8;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 3rem 1rem;
+            background-image: url('https://images.unsplash.com/photo-1601758123927-1965c6b7a4a3');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .hero h2 {
+            background-color: rgba(0,0,0,0.6);
+            display: inline-block;
+            padding: 10px 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            width: 300px;
+            margin: 1rem;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        button {
+            background-color: #ff914d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #e67828;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Feed the Strays</h1>
+        <p>Every meal matters 🐕🐈</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#how-to-help">How to Help</a>
+        <a href="#donate">Donate</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Together, We Can Make a Difference</h2>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a community-driven initiative dedicated to feeding and caring for stray animals. Our mission is to ensure no stray goes hungry or unheard.</p>
+    </section>
+
+    <section id="how-to-help">
+        <h2>How You Can Help</h2>
+        <div class="container">
+            <div class="card">
+                <h3>Donate Food</h3>
+                <p>Contribute dry food, rice, or biscuits for local stray feeding drives.</p>
+            </div>
+            <div class="card">
+                <h3>Volunteer</h3>
+                <p>Join our feeding routes or help spread awareness in your area.</p>
+            </div>
+            <div class="card">
+                <h3>Adopt or Foster</h3>
+                <p>Give a homeless animal a forever home or temporary shelter.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="donate">
+        <h2>Support Us</h2>
+        <p>Your support helps us buy food, provide medical aid, and run feeding programs.</p>
+        <button>Donate Now</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:feedthestrays@example.com">feedthestrays@example.com</a></p>
+        <p>Follow us on Instagram: <a href="#" target="_blank">@feedthestrays</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Feed the Strays | Made with ❤️ for all animals</p>
+    </footer>
+</body>
+</html>
